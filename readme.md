@@ -18,7 +18,7 @@ We address the problem of automatic photo enhancement, in which the challenge is
 - pytorch
 - Image
 - cma
-- darktable(Photo enhancement software)
+- darktable (Photo enhancement software)
 
 ## Contents
 This contains programs for generating training data and ones for using trained CNN to enhance photos.
