@@ -7,7 +7,7 @@ First, download the high-quality images from flickr. Be sure to enter your flick
 	python2 flickrAPI.py 2019-01-31
 
 Second, degrade images and choose natural ones from them.
-
+Download the [classification net](https://waseda.box.com/s/bq9oy7ep8utfybn8007dw55amtsiumxh).
 	bash degrade_photos.sh 2019-01-31
 	python choose_degraded_photos-test.py test --datedir 2019-01-31
 	python thresholding.py　 2019-01-31
